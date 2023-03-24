@@ -1,8 +1,37 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>100</y><w>160</w><h>180</h></coordinates><panel_attributes>Main.py
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>50</x><y>110</y><w>270</w><h>180</h></coordinates><panel_attributes>Main.py
 --
 looping boleen
 personbils_lista[personbil]
 lastbils_lista[Lastbil]
 --
 main()
-print_fordons_lista()</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+print_fordons_lista()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>120</y><w>260</w><h>180</h></coordinates><panel_attributes>Fordon
+--
+fabrikat.str
+color.str
+--
+_init_constructor(fabrikat_color)
+setFabrikat(str)
+getFabrikat():str
+setColor(str)
+getColor():str</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>510</x><y>450</y><w>260</w><h>180</h></coordinates><panel_attributes>Personbil
+--
+fabrikat:str
+color:str
+bagagevolym:int
+--
+_init_constructor(fabrikat, color, bagagevolym)
+setBagageVolym(int)
+getBagageVolym()int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>50</x><y>450</y><w>270</w><h>180</h></coordinates><panel_attributes>Lastbil
+--
+fabrikat:str
+color:str
+flakvolym:int
+--
+_init_constructor(fabrikat, color, flakvolym)
+setFlakVolym(int)
+getFlakVolym():int
+print_fordon()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>290</y><w>320</w><h>180</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>300;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>290</y><w>50</w><h>180</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>30;10;10;160</additional_attributes></element><element><id>Relation</id><coordinates><x>310</x><y>280</y><w>220</w><h>190</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>200;170;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>170</x><y>280</y><w>50</w><h>190</h></coordinates><panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes><additional_attributes>10;170;10;10</additional_attributes></element></diagram>
