@@ -1,0 +1,8 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>190</x><y>100</y><w>160</w><h>180</h></coordinates><panel_attributes>Main.py
+--
+looping boleen
+personbils_lista[personbil]
+lastbils_lista[Lastbil]
+--
+main()
+print_fordons_lista()</panel_attributes><additional_attributes></additional_attributes></element></diagram>
