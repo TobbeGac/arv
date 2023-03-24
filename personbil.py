@@ -3,8 +3,8 @@ import fordon
 
 class Personbil:
 
-    def __init__(self, fabrikat, color, baagagevolym):
-        self.bagagevolym = baagagevolym
+    def __init__(self, fabrikat, color, bagagevolym):
+        self.bagagevolym = bagagevolym
         self.fabrikat = fabrikat
         self.color = color
     
